@@ -19,7 +19,7 @@ Create Quote for Car
 Open Insurance Application
     New Browser    browser=${BROWSER}    headless=${HEADLESS}
     New Context    locale=en-GB
-    New Page    https://sampleapp.tricentis.com/
+    New Page    https://sampleapp.tricentis.com/101/
 
 Enter Vehicle Data for Automobile
     Click    div.main-navigation >> "Automobile"

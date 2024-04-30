@@ -3,7 +3,7 @@ Library    Browser
 
 *** Variables ***
 ${BROWSER}    chromium
-${HEADLESS}    false
+${HEADLESS}    true
 
 *** Test Cases ***
 Create Quote for Car
